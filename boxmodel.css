@@ -1,0 +1,59 @@
+body {
+    font-family: 'Padauk', sans-serif;
+    /* margin: 0; */
+}
+
+.nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.navlistitem {
+    float: left;   
+    color: white;
+    margin-left: 10px;
+}
+
+.content {
+    margin-top: 30px;
+    margin: 10px;
+}
+
+.header {
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+.card {
+    width: 31%;
+    float: left;
+    margin: 1%;
+    border-style: solid;
+    height: 20vw;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    padding-left: 2%; 
+}
+
+.desc {
+    padding: 2%;
+    text-align: justify;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
